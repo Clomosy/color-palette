@@ -21,15 +21,20 @@ Additionally, the clicked color is copied to the clipboard.
 
 ## Variable_Declarations
 Various variables (MyForm, color1Pnl, color2Pnl, etc.) are declared, representing the form, panels, labels, and color-related information.
+
 ##SetupFormLayout_Procedure
- Defines a procedure SetupFormLayout to set up the layout of the form.
+Defines a procedure SetupFormLayout to set up the layout of the form.
+
 ##GenerateRandomHexColor_Function
 Defines a function GenerateRandomHexColor to generate a random hexadecimal color.
+
 ##Panel_Click_Procedures
 color1PnlOnClick, color2PnlOnClick, and color3PnlOnClick are procedures triggered when the respective panels are clicked. 
 They generate a random color, update the panel and label properties, and set the form's color gradient.
+
 ##Label_Click_Procedures:
 colorLblOnClick, colorLbl2OnClick, and colorLbl3OnClick are procedures triggered when the respective labels are clicked. They copy the label's text (color code) to the clipboard.
+
 ##Main_Code
 Creates a new form (MyForm).
 Sets up the initial color values and form layout.
