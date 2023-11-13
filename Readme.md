@@ -10,6 +10,7 @@ Like other examples this app can be developed.
 Clomosy code appears to be creating a form with three panels, each representing a color. 
 The panels are clickable, and when clicked, they generate random hexadecimal colors and display them within the panels and labels. 
 Additionally, the clicked color is copied to the clipboard.
+
 ## Table of Contents
 - [Variable Declarations](#Variable_Declarations)
 - [SetupFormLayout Procedure](#SetupFormLayout_Procedure)
@@ -22,20 +23,20 @@ Additionally, the clicked color is copied to the clipboard.
 ## Variable_Declarations
 Various variables (MyForm, color1Pnl, color2Pnl, etc.) are declared, representing the form, panels, labels, and color-related information.
 
-##SetupFormLayout_Procedure
+## SetupFormLayout_Procedure
 Defines a procedure SetupFormLayout to set up the layout of the form.
 
-##GenerateRandomHexColor_Function
+## GenerateRandomHexColor_Function
 Defines a function GenerateRandomHexColor to generate a random hexadecimal color.
 
-##Panel_Click_Procedures
+## Panel_Click_Procedures
 color1PnlOnClick, color2PnlOnClick, and color3PnlOnClick are procedures triggered when the respective panels are clicked. 
 They generate a random color, update the panel and label properties, and set the form's color gradient.
 
-##Label_Click_Procedures:
+## Label_Click_Procedures:
 colorLblOnClick, colorLbl2OnClick, and colorLbl3OnClick are procedures triggered when the respective labels are clicked. They copy the label's text (color code) to the clipboard.
 
-##Main_Code
+## Main_Code
 Creates a new form (MyForm).
 Sets up the initial color values and form layout.
 Creates three panels (color1Pnl, color2Pnl, color3Pnl) and corresponding labels.
