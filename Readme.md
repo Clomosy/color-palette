@@ -1,7 +1,7 @@
 
 
 
-#ColorPalette Example
+# ColorPalette Example
 
 ## Description
 In this application, random color codes are generated and the color is shown on the screen. 
