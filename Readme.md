@@ -1,7 +1,4 @@
-
-
-
-# ColorPalette Example
+# Color Palette Example
 
 ## Description
 In this application, random color codes are generated and the color is shown on the screen. 
@@ -10,6 +7,7 @@ Like other examples this app can be developed.
 Clomosy code appears to be creating a form with three panels, each representing a color. 
 The panels are clickable, and when clicked, they generate random hexadecimal colors and display them within the panels and labels. 
 Additionally, the clicked color is copied to the clipboard.
+
 ## Table of Contents
 - [Variable Declarations](#Variable_Declarations)
 - [SetupFormLayout Procedure](#SetupFormLayout_Procedure)
